@@ -1,0 +1,276 @@
+/*============================================*
+ *  global start
+ *============================================*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 16px;
+}
+
+.container {
+  width: 768px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 1px 5px 0 #808080;
+          box-shadow: 0 1px 5px 0 #808080;
+}
+
+.inner-container {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*============================================*
+ *  global end
+ *============================================*
+ *  header area start
+ *============================================*/
+.header-area-wrapper {
+  background: #4c184d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.25rem 2rem;
+}
+
+.header-left {
+  margin-left: 3.25rem;
+}
+
+.header-right {
+  margin-right: 3rem;
+}
+
+.header-right h3 {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+/*============================================*
+ *  header area end
+ *============================================*
+ *  main area start
+ *============================================*/
+.main-area-wrapper {
+  padding-bottom: 5rem;
+}
+
+/*============================================*
+ *  order details area start
+ *============================================*/
+.order-details-inner {
+  padding: 3.75rem 0 2.5rem;
+}
+
+.order-details-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.order-details-item {
+  width: 26%;
+}
+
+.order-details-item h3 {
+  color: #4c184d;
+}
+
+.order-details-item h4 {
+  color: #000000;
+  font-weight: 300;
+}
+
+.order-details-time p {
+  color: #000000;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+/*============================================*
+ *  order details area end
+ *============================================*
+ *  order description item area start
+ *============================================*/
+.order-description-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 1fr 1fr;
+      grid-template-columns: 3fr 1fr 1fr;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 0.9rem 0.75rem;
+}
+
+.order-description-item h2 {
+  color: #808080;
+  font-size: 1.1rem;
+}
+
+.order-description-item h3 {
+  color: #808080;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.order-description-item p {
+  color: #909090;
+  font-size: 0.9rem;
+}
+
+.summary-item:hover,
+.order-description-item:hover {
+  background: #f9effa;
+}
+
+.order-description-bottom-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3fr 2fr;
+      grid-template-columns: 3fr 2fr;
+}
+
+.order-description-item-header {
+  border-bottom: 2px solid #4c184d;
+}
+
+.order-description-item-header h3 {
+  color: #4c184d;
+  font-weight: normal;
+}
+
+.summary-item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 1rem 0.75rem;
+}
+
+.summary-item h3 {
+  color: #808080;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: #4c184d;
+}
+
+.amount-due {
+  background: #f7e1f2;
+  border-top: 0.25rem solid #4c184d;
+}
+
+.amount-due h3 {
+  font-weight: bold;
+}
+
+/*============================================*
+ *  order description item area end
+ *============================================*
+ *  terms and conditions desc area start
+ *============================================*/
+.terms-and-conditions {
+  margin: 1rem 0;
+}
+
+.terms-and-conditions label {
+  color: #808080;
+  font-size: 1.125rem;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.from-item {
+  width: 93%;
+}
+
+.from-item textarea {
+  width: 100%;
+  height: 123px;
+  resize: none;
+  color: #808080;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.9rem;
+  border-color: #4c184d;
+  outline-color: #4c184d;
+}
+
+/*============================================*
+ *  terms and conditions desc area end
+ *============================================*
+ *  main area end
+ *============================================*
+ *  footer area start
+ *============================================*/
+.footer-area-inner {
+  padding: 1.5rem 1rem;
+  background: #4c184d;
+}
+
+.footer-area-wrapper h3 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-area-wrapper a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-area-wrapper a:hover {
+  color: #dddddd;
+}
+
+/*============================================*
+ *  footer area end
+ *============================================*
+ *  Responsive css area start
+ *============================================*/
+@media only screen and (min-width: 120px) and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  .inner-container {
+    max-width: 96%;
+  }
+}
+
+/*============================================*
+ *  Responsive css area end
+ *============================================*/

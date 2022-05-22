@@ -1,0 +1,33 @@
+
+
+/*============================================*
+ *  order details area start
+ *============================================*/
+
+ .order-details-inner {
+  padding: 3.75rem 0 2.5rem;
+}
+
+.order-details-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.order-details-item {
+  width: 26%;
+}
+
+.order-details-item h3 {
+  color: #4c184d;
+}
+
+.order-details-item h4 {
+  color: #000000;
+  font-weight: 300;
+}
+.order-details-time p {
+  color: #000000;
+  font-weight: 300;
+  padding: 1rem;
+}

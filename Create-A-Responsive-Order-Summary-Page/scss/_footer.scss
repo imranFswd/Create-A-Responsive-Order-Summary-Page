@@ -1,0 +1,27 @@
+
+/*============================================*
+ *  terms and conditions desc area end
+ *============================================*
+ *  main area end
+ *============================================*
+ *  footer area start
+ *============================================*/
+
+ .footer-area-inner {
+  padding: 1.5rem 1rem;
+  background: #4c184d;
+}
+
+.footer-area-wrapper {
+  h3 {
+    text-align: center;
+    color: #ffffff;
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    &:hover {
+      color: #dddddd;
+    }
+  }
+}

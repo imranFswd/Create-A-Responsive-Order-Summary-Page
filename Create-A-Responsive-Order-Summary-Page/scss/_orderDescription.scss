@@ -1,0 +1,66 @@
+
+/*============================================*
+ *  order details area end
+ *============================================*
+ *  order description item area start
+ *============================================*/
+
+ .order-description-item {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  justify-content: start;
+  align-items: center;
+  align-items: start;
+  padding: 0.9rem 0.75rem;
+  h2 {
+    color: #808080;
+    font-size: 1.1rem;
+  }
+  h3 {
+    color: #808080;
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+  p {
+    color: #909090;
+    font-size: 0.9rem;
+  }
+}
+
+.summary-item:hover,
+.order-description-item:hover {
+  background: #f9effa;
+}
+
+.order-description-bottom-wrapper {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.order-description-item-header {
+  border-bottom: 2px solid #4c184d;
+  h3 {
+    color: #4c184d;
+    font-weight: normal;
+  }
+}
+
+.summary-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 0.75rem;
+  h3 {
+    color: #808080;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #4c184d;
+  }
+}
+
+.amount-due {
+  background: #f7e1f2;
+  border-top: 0.25rem solid #4c184d;
+  h3 {
+    font-weight: bold;
+  }
+}

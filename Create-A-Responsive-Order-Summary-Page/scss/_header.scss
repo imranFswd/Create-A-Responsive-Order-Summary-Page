@@ -1,0 +1,27 @@
+
+/*============================================*
+ *  global end
+ *============================================*
+ *  header area start
+ *============================================*/
+
+ .header-area-wrapper {
+  background: #4c184d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 2rem;
+}
+
+.header-left {
+  margin-left: 3.25rem;
+}
+
+.header-right {
+  margin-right: 3rem;
+}
+
+.header-right h3 {
+  color: #fff;
+  font-size: 1.25rem;
+}

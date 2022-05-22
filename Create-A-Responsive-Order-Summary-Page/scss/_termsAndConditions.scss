@@ -1,0 +1,32 @@
+
+/*============================================*
+ *  order description item area end
+ *============================================*
+ *  terms and conditions desc area start
+ *============================================*/
+ 
+ .terms-and-conditions {
+  margin: 1rem 0;
+}
+
+.terms-and-conditions label {
+  color: #808080;
+  font-size: 1.125rem;
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.from-item {
+  width: 93%;
+}
+
+.from-item textarea {
+  width: 100%;
+  height: 123px;
+  resize: none;
+  color: #808080;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.9rem;
+  border-color: #4c184d;
+  outline-color: #4c184d;
+}

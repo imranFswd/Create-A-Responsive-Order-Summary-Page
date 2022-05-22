@@ -1,0 +1,41 @@
+/*============================================*
+ *  global start
+ *============================================*/
+
+ *,
+ *::after,
+ *::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ body {
+   font-size: 16px;
+ }
+ 
+ .container {
+   width: 768px;
+   margin: 0 auto;
+   box-shadow: 0 1px 5px 0 #808080;
+ }
+ 
+ .inner-container {
+   max-width: 80%;
+   width: 100%;
+   margin: 0 auto;
+ }
+ 
+ .bold {
+   font-weight: bold !important;
+ }
+ 
+ .border-bottom {
+   border-bottom: 1px solid #ddd;
+ }
+ 
+ .text-center {
+   text-align: center;
+ }
+ 
